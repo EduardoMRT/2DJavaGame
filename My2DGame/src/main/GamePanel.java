@@ -37,7 +37,9 @@ public class GamePanel extends JPanel implements Runnable{
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
+		while(gameThread != null) {
+			System.out.println("Jogo rodando pae \n");
+		}
 		
 	}
 }
